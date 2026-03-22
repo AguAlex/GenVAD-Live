@@ -1,0 +1,69 @@
+# =========================
+# 1. Mediul Virtual Python
+# =========================
+venv/
+env/
+.env
+
+# =========================
+# 2. Fisiere generate de Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================
+# 3. Datele Proiectului (Dataset)
+# =========================
+# Nu vrem sa urcam fisierele video grele pe GitHub!
+dataset/
+train_normal/
+train_anomaly_images/
+train_anomaly_masks/
+gradients/
+gradients2/
+*.mp4
+*.avi
+*.mov
+
+# =========================
+# 4. Modele ML (PyTorch & Logs)
+# =========================
+# Greutatile modelelor antrenate
+*.pth
+*.pt
+*.ckpt
+
+# Output-ul antrenamentului (Tensorboard, loguri, predictii)
+output/
+runs/
+logs/
+tb_logs/
+log_train.txt
+log_test.txt
+
+# =========================
+# 5. Fisiere specifice sistemului de operare & IDE
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
