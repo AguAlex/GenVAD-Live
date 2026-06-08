@@ -1,0 +1,28 @@
+{
+  "method": "FutureFramePrediction",
+  "dataset": "ucsd",
+  "data_path": "/content/UCSD_Dataset",
+  "n_input_frames": 4,
+  "epochs": 25,
+  "resize": "384x256",
+  "filt_range": 302,
+  "filt_mu": 21,
+  "base_channels": 32,
+  "micro": 0.8516534356058574,
+  "macro": 0.9707184796199905,
+  "per_video_auc": {
+    "Test001": 0.989974258230592,
+    "Test002": 0.9969751966122202,
+    "Test003": 0.998639455782313,
+    "Test004": 1.0,
+    "Test005": 0.9314685314685315,
+    "Test006": 0.9062499999999999,
+    "Test007": 1.0,
+    "Test008": 1.0,
+    "Test009": 1.0,
+    "Test010": 1.0,
+    "Test011": 1.0,
+    "Test012": 0.8253143133462282
+  },
+  "elapsed_sec": 1876
+}
