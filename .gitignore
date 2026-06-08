@@ -1,7 +1,7 @@
 # =========================
 # 1. Mediul Virtual Python
 # =========================
-venv/
+.venv/
 env/
 .env
 
