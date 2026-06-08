@@ -41,7 +41,7 @@ import torch
 from PIL import Image
 from diffusers import AutoPipelineForInpainting
 
-GEMINI_API_KEY = "AIzaSyCBAIiD1tOZtv9NNvzi2SLKM5XVGO8LDf4"
+# GEMINI_API_KEY = 
 genai.configure(api_key=GEMINI_API_KEY)
 
 # =============================================================================
